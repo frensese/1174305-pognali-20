@@ -1,7 +1,7 @@
 # Личный проект «Погнали» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Ольга Федосова](https://up.htmlacademy.ru/adaptive/20/user/1174305).
-* Наставник: `Неизвестно`.
+* Наставник: [Татьяна 👩‍💻 Симоненко](https://htmlacademy.ru/profile/tatien).
 
 ---
 
