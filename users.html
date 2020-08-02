@@ -10,7 +10,7 @@
   <body class="page__body body">
     <header class="page-header header">
       <h1 class="visually-hidden">Сервис планирования путешествий «Погнали?»: Направления</h1>
-      <nav class="page-header__nav nav">
+      <nav class="header__nav nav">
         <a class="nav__logo logo" href="index.html">
           <img class="logo__img" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Логотип сервиса планирования путешествий «Погнали?»">
         </a>
@@ -23,15 +23,15 @@
             <a class="nav__link" href="form.html">Направления</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="">Попутчик</a>
+            <a class="nav__link">Попутчики</a>
           </li>
         </ul>
         <ul class="nav__list">
           <li class="nav__item">
-            <a class="nav__btn nav__btn_header" href="">Авторизация</a>
+            <a class="nav__btn btn" href="">Авторизация</a>
           </li>
         </ul>
-      </nav>  
+      </nav>   
       
       <section class="header__contacts contacts">
         <h2 class="visually-hidden">Контакты</h2>
@@ -48,14 +48,14 @@
         </ul>
       </section>
 
-      <input class="header__toggle" type="checkbox" id="nav-toggle"/>
-      <label for="header__ttoggle"></label>
+      <input class="header__toggle" type="checkbox" id="header-toggle"/>
+      <label for="header__toggle"></label>
     </header>
 
-    <main class="body__main main main_users">
-      <h2 class="main__title title-h1">Попутчики</h2>
+    <main class="body__main main-users">
+      <h2 class="main-users__title title-h1">Попутчики</h2>
 
-      <section class="main__filter filter">
+      <section class="main-users__filter filter">
         <h3 class="filter__title title-h4">Фильтрация по странам</h3>
         <input class="filter__toggle" type="checkbox" id="filter-toggle"/>
         <label for="filter-toggle"></label>
@@ -93,8 +93,8 @@
 
             <fieldset class="country-form__fieldset_abc country-fieldset_abc">
               <legend class="visually-hidden">Выбор страны по алфавиту</legend>
-              <ul class="country-filter__list_abc">
-                <li class="country-filter__item_abc">
+              <ul class="country-filter__list country-filter__list_abc">
+                <li class="country-filter__item country-filter__item_abc">
                   <label>
                   <input class="visually-hidden" type="radio" name="abc" id="a" value="a" checked>
                   А</label>
@@ -387,16 +387,16 @@
               </div>
             </fieldset>
 
-            <button class="user-filter__btn btn_users-filter" type="submit">Показать</button>
+            <button class="user-filter__btn btn btn_users-filter" type="submit">Показать</button>
           </form>
         </section>
       </section>
 
-      <section class="main__filter travelers travelers_users">
+      <section class="main-users__filter travelers travelers_users">
         <h3 class="visually-hidden">Выбрать попутчика</h3>
 
-        <ul class="travelers__box_users traveler traveler_users">
-          <li class="traveler__item_users">
+        <ul class="travelers__box travelers__box_users traveler traveler_users">
+          <li class="traveler__item traveler__item_users">
             <article class="traveler__article traveler-article">
               <img class="traveler-article__img" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Таня Фирсова купается в океане">
               <h3 class="traveler-article__author-title title-h3">Таня Фирсова</h3>
@@ -427,7 +427,7 @@
               </section>
 
               <section class="wish-list wish-country">
-                <h4 class="wish-country__title title-h4_users">хочет посетить</h4>
+                <h4 class="wish-country__title title-h4 title-h4_users">хочет посетить</h4>
                 <ul class="wish-country__list">
                   <li class="wish-country__item">
                     <a class="wish-country__link" href="">Шри-Ланка</a>
@@ -442,7 +442,7 @@
               </section>
               
               <section class="route-icons">
-                <h4 class="route-icons__title title-h4_users">транспорт</h4>
+                <h4 class="route-icons__title title-h4 title-h4_users">транспорт</h4>
                 <ul class="route-icons__list">
                   <li class="route-icons__item">
                     <a class="route-icons__link" href=""><span class="visually-hidden">На самолёте</span></a>
@@ -462,16 +462,16 @@
                 </ul>
               </section>
 
-              <div class="mark mark_users">
-                <h4 class="mark__title_users title-h4_users">левел</h4>
-                <p class="mark__number_users title-h2_users">99</p>
+              <div class="mark mark-users">
+                <h4 class="mark-users__title title-h4 title-h4_users">левел</h4>
+                <p class="mark-users__number title-h2 title-h2_users">99</p>
               </div>   
               
-              <a class="traveler-article__btn_users btn_user" href="">Позвать</a>
+              <a class="traveler-article__btn btn btn_user" href="">Позвать</a>
             </article>
           </li>
 
-          <li class="traveler__item_users">
+          <li class="traveler__item traveler__item_users">
             <article class="traveler__article traveler-article">
               <img class="traveler-article__img" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Таня Фирсова купается в океане">
               <h3 class="traveler-article__author-title title-h3">Петя Демин</h3>
@@ -499,7 +499,7 @@
               </section>
 
               <section class="wish-list wish-country">
-                <h4 class="wish-country__title title-h4_users">хочет посетить</h4>
+                <h4 class="wish-country__title title-h4 title-h4_users">хочет посетить</h4>
                 <ul class="wish-country__list">
                   <li class="wish-country__item">
                     <a class="wish-country__link" href="">Бельгия</a>
@@ -511,7 +511,7 @@
               </section>
               
               <section class="route-icons">
-                <h4 class="route-icons__title title-h4_users">транспорт</h4>
+                <h4 class="route-icons__title title-h4 title-h4_users">транспорт</h4>
                 <ul class="route-icons__list">
                   <li class="route-icons__item">
                     <a class="route-icons__link" href=""><span class="visually-hidden">На самолёте</span></a>
@@ -531,16 +531,16 @@
                 </ul>
               </section>
 
-              <div class="mark mark_users">
-                <h4 class="mark__title_users title-h4_users">левел</h4>
-                <p class="mark__number_users title-h2_users">99</p>
+              <div class="mark mark-users">
+                <h4 class="mark-users__title title-h4 title-h4_users">левел</h4>
+                <p class="mark-users__number title-h2 title-h2_users">99</p>
               </div>
 
-              <a class="traveler-article__btn_users btn_user" href="">Позвать</a>         
+              <a class="traveler-article__btn btn btn_user" href="">Позвать</a>         
             </article>
           </li>
 
-          <li class="traveler__item_users">
+          <li class="traveler__item traveler__item_users">
             <article class="traveler__article traveler-article">
               <img class="traveler-article__img" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Таня Фирсова купается в океане">
               <h3 class="traveler-article__author-title title-h3">Марк Смолов</h3>
@@ -568,7 +568,7 @@
               </section>
 
               <section class="wish-list wish-country">
-                <h4 class="wish-country__title title-h4_users">хочет посетить</h4>
+                <h4 class="wish-country__title title-h4 title-h4_users">хочет посетить</h4>
                 <ul class="wish-country__list">
                   <li class="wish-country__item">
                     <a class="wish-country__link" href="">Бельгия</a>
@@ -580,7 +580,7 @@
               </section>
               
               <section class="route-icons">
-                <h4 class="route-icons__title title-h4_users">транспорт</h4>
+                <h4 class="route-icons__title title-h4 title-h4_users">транспорт</h4>
                 <ul class="route-icons__list">
                   <li class="route-icons__item">
                     <a class="route-icons__link" href=""><span class="visually-hidden">На самолёте</span></a>
@@ -600,16 +600,16 @@
                 </ul>
               </section>
 
-              <div class="mark mark_users">
-                <h4 class="mark__title_users title-h4_users">левел</h4>
-                <p class="mark__number_users title-h2_users">25</p>
+              <div class="mark mark-users">
+                <h4 class="mark-users__title title-h4 title-h4_users">левел</h4>
+                <p class="mark-users__number title-h2 title-h2_users">25</p>
               </div>  
               
-              <a class="traveler-article__btn_users btn_user" href="">Позвать</a>
+              <a class="traveler-article__btn btn btn_user" href="">Позвать</a>
             </article>
           </li>
 
-          <li class="traveler__item_users">
+          <li class="traveler__item traveler__item_users">
             <article class="traveler__article traveler-article">
               <img class="traveler-article__img" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Таня Фирсова купается в океане">
               <h3 class="traveler-article__author-title title-h3">Лариса Роговая</h3>
@@ -634,7 +634,7 @@
               </section>
 
               <section class="wish-list wish-country">
-                <h4 class="wish-country__title title-h4_users">хочет посетить</h4>
+                <h4 class="wish-country__title title-h4 title-h4_users">хочет посетить</h4>
                 <ul class="wish-country__list">
                   <li class="wish-country__item">
                     <a class="wish-country__link" href="">Великобритания</a>
@@ -646,7 +646,7 @@
               </section>
               
               <section class="route-icons">
-                <h4 class="route-icons__title title-h4_users">транспорт</h4>
+                <h4 class="route-icons__title title-h4 title-h4_users">транспорт</h4>
                 <ul class="route-icons__list">
                   <li class="route-icons__item">
                     <a class="route-icons__link" href=""><span class="visually-hidden">На самолёте</span></a>
@@ -666,25 +666,25 @@
                 </ul>
               </section>
 
-              <div class="mark mark_users">
-                <h4 class="mark__title_users title-h4_users">левел</h4>
-                <p class="mark__number_users title-h2_users">50</p>
+              <div class="mark mark-users">
+                <h4 class="mark-users__title title-h4 title-h4_users">левел</h4>
+                <p class="mark-users__number title-h2 title-h2_users">50</p>
               </div>  
               
-              <a class="traveler-article__btn_users btn_user" href="">Позвать</a>
+              <a class="traveler-article__btn btn btn_user" href="">Позвать</a>
             </article>
           </li>
         </ul>
 
         <ul class="travelers__pagination pagination">
-          <li class="pagination__item pagination-btn"><a class="btn_user" href="">Показать ещё</a></li>
+          <li class="pagination__item pagination-btn"><a class="btn btn_user" href="">Показать ещё</a></li>
           <li class="pagination__item disabled"><a class="visually-hidden">Предыдущая</a></li>
-          <li class="pagination__item"><a class="btn_user_icon"href="">Следующая</a></li>
+          <li class="pagination__item"><a class="btn btn_user btn_user-icon"href="">Следующая</a></li>
         </ul>
       </section>
     </main>
 
-    <footer class="body__footer footer footer_users">
+    <footer class="body__footer footer">
       <section class="footer__social social">
         <h2 class="visually-hidden">Мы в социальных сетях</h2>
         <ul class="social__list social__list_bottom">
