@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html class="page" lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Сервис планирования путешествий «Погнали?». Главная страница">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Сервис планирования путешествий «Погнали?»: Главная</title>
+  </head>
+
+  <body class="page__body body">
+    <header class="page-header header">
+      <h1 class="visually-hidden">Сервис планирования путешествий «Погнали?»: Направления</h1>
+      <nav class="header__nav nav">
+        <a class="nav__logo logo" href="index.html">
+          <img class="logo__img" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Логотип сервиса планирования путешествий «Погнали?»">
+        </a>
+
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__link" href="">О сервисе</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="form.html">Направления</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="">Попутчики</a>
+          </li>
+        </ul>
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a class="nav__btn btn" href="">Авторизация</a>
+          </li>
+        </ul>
+      </nav>  
+      
+      <section class="header__contacts contacts">
+        <h2 class="visually-hidden">Контакты</h2>
+        <a class="contacts__link contacts-phone contacts-phone_header" href="tel:+78005558628">8 800 555–86–28</a></p>
+        <a class="contacts__link contacts-email contacts-email_header" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+      </section>
+
+      <section class="header__social social">
+        <h2 class="visually-hidden">Мы в социальных сетях</h2>
+        <ul class="social__list">
+          <li class="social__item social__item_vk"><a aria-label="vkotakte" href=""></a></li>
+          <li class="social__item social__item_fb"><a aria-label="facebook" href=""></a></li>
+          <li class="social__item social__item_inst"><a aria-label="instagram" href=""></a></li>
+        </ul>
+      </section>
+
+      <input class="header__toggle" type="checkbox" id="nav-toggle"/>
+      <label for="header__ttoggle"></label>
+    </header>
+
+    <main class="body__main main-users">
+      <h2 class="main-users__title title-h1">Попутчики</h2>
+
+      <section class="main-users__filter filter">
+        <h3 class="filter__title title-h4">Фильтрация по странам</h3>
+        <input class="filter__toggle" type="checkbox" id="filter-toggle"/>
+        <label for="filter-toggle"></label>
+
+        <section class="filter__country country-filter">
+          <form class="country-filter__form country-form">
+            <fieldset class="country-form__fieldset country-fieldset">
+              <legend class="visually-hidden">Континенты</legend>
+              <ul class="country-filter__list">
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="continent" id="europe" value="europe" checked>
+                  Европа</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="continent" id="asia" value="asia">
+                  Азия</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="continent" id="america" value="america">
+                  Америка</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="continent" id="islands" value="islands">
+                  Америка</label>
+                </li>
+              </ul>
+            </fieldset>
+
+            <fieldset class="country-form__fieldset_abc country-fieldset_abc">
+              <legend class="visually-hidden">Выбор страны по алфавиту</legend>
+              <ul class="country-filter__list_abc">
+                <li class="country-filter__item_abc">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="a" value="a" checked>
+                  А</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="b" value="b">
+                  Б</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="v" value="v">
+                  В</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="g" value="g">
+                  Г</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="d" value="d">
+                  Д</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="e" value="e">
+                  Е</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="e" value="e">
+                  З</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="i" value="i">
+                  И</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="k" value="k">
+                  К</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="l" value="l">
+                  Л</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="m" value="m">
+                  М</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="n" value="n">
+                  Н</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="o" value="o">
+                  О</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="p" value="p">
+                 П</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="r" value="r">
+                  Р</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="c" value="c">
+                  С</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="t" value="t">
+                  Т</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="y" value="y">
+                  У</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="f" value="f">
+                  Ф</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="h" value="h">
+                  Х</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="ch" value="ch">
+                  Ч</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="sh" value="sh">
+                  Ш</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="ee" value="ee">
+                  Э</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="you" value="you">
+                  Ю</label>
+                </li>
+
+                <li class="country-filter__item">
+                  <label>
+                  <input class="visually-hidden" type="radio" name="abc" id="ya" value="ya">
+                  Я</label>
+                </li>
+              </ul>
+            </fieldset>
+
+            <select class="country-form__list" name="abc-a" multiple>
+              <option class="country-form__item" selected>Австралия</option>
+              <option class="country-form__item">Австрия</option>
+              <option class="country-form__item">Азербайджан</option>
+              <option class="country-form__item">Албания</option>
+              <option class="country-form__item">Алжир</option>
+              <option class="country-form__item">Ангола</option>
+              <option class="country-form__item">Андорра</option>
+              <option class="country-form__item">Антигуа и Барбуда</option>
+              <option class="country-form__item">Аргентина</option>
+              <option class="country-form__item">Армения</option>
+              <option class="country-form__item">Афганистан</option>
+            </select>
+          </form>
+          <button class="country-filter__btn btn_form btn_form_filter" type="button">Свернуть</button>
+        </section>
+
+        <section class="filter__user-filter user-filter"> 
+          <h3 class="user-filter__title title-h3">Подберите идеального попутчика</h3>
+          <form action="https://echo.htmlacademy.ru" method="post"> 
+            <fieldset class="user-filter__fieldset filter-checkbox">
+              <legend class="filter-checkbox__title">Хобби</legend>
+              <ul class="filter-checkbox__list">
+                <li class="filter-checkbox__item">
+                  <label class="filter-checkbox__label">Плавание
+                    <input class="visually-hidden" type="checkbox" name="swimming">
+                  </label>
+                </li>
+                
+                <li class="filter-checkbox__item">
+                  <label class="filter-checkbox__label">Бег
+                  <input class="visually-hidden" type="checkbox" name="run">
+                  </label>
+                </li>
+
+                <li class="filter-checkbox__item">
+                  <label class="filter-checkbox__label">Ходьба
+                  <input class="visually-hidden" type="checkbox" name="walking">
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+
+            <fieldset class="user-filter__fieldset filter-checkbox">
+              <legend class="filter-checkbox__title">Музыка</legend>
+              <ul class="filter-checkbox__list">
+                <li class="filter-checkbox__item">
+                  <label class="filter-checkbox__label">Тяжёлый рок
+                    <input class="visually-hidden" type="checkbox" name="hard-rock">
+                  </label>
+                </li>
+                
+                <li class="filter-checkbox__item">
+                  <label class="filter-checkbox__label">Русский рэп
+                    <input class="visually-hidden" type="checkbox" name="russian-rap">
+                  </label>
+                </li>
+
+                <li class="filter-checkbox__item">
+                  <label class="filter-checkbox__label">Евроденс
+                    <input class="visually-hidden" type="checkbox" name="eurodance">
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+
+            <fieldset class="user-filter__fieldset filter-checkbox">
+              <legend class="filter-checkbox__title">Еда</legend>
+              <ul class="filter-checkbox__list">
+                <li class="filter-checkbox__item">
+                  <label class="filter-checkbox__label">Средиземноморская
+                    <input class="visually-hidden" type="checkbox" name="mediterranean">
+                  </label>
+                </li>
+                
+                <li class="filter-checkbox__item">
+                  <label class="filter-checkbox__label">Итальянская
+                    <input class="visually-hidden" type="checkbox" name="italian">
+                  </label>
+                </li>
+
+                <li class="filter-checkbox__item">
+                  <label class="filter-checkbox__label">Вегетерианская
+                  <input class="visually-hidden" type="checkbox" name="vegetarian">
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+
+            <fieldset class="user-filter__fieldset filter-checkbox">
+              <legend class="filter-checkbox__title">Транспорт</legend>
+              <ul class="filter-checkbox__list">
+                <li class="filter-checkbox__item">
+                  <label class="filter-checkbox__label">
+                    <span class="visually-hidden">На самолёте</span>
+                    <input class="visually-hidden" type="checkbox" name="hard-rock">
+                  </label>
+                </li>
+                
+                <li class="filter-checkbox__item">
+                  <label class="filter-checkbox__label">
+                    <span class="visually-hidden">На поезде</span>
+                    <input class="visually-hidden" type="checkbox" name="russian-rap">
+                  </label>
+                </li>
+
+                <li class="filter-checkbox__item">
+                  <label class="filter-checkbox__label">
+                    <span class="visually-hidden">На велосипеде</span>
+                    <input class="visually-hidden" type="checkbox" name="eurodance">
+                  </label>
+                </li>
+
+                <li class="filter-checkbox__item">
+                  <label class="filter-checkbox__label">
+                    <span class="visually-hidden">Пешком</span>
+                    <input class="visually-hidden" type="checkbox" name="eurodance">
+                  </label>
+                </li>
+              </ul>
+            </fieldset>
+
+            <fieldset class="user-filter__fieldset filter-range">
+              <legend class="filter-range__title">Левел</legend>
+              <div class="filter-range__box range-controls">
+                <div class="range-controls__list">
+                  <div class="scale"></div>
+                  <div class="bar"></div>
+                  <div class="toggle toggle-min" tabindex="0"></div>
+                  <div class="toggle toggle-max" tabindex="0"></div>
+                </div>
+              </div>
+              <div class="filter-range__inputs">
+                <label class="filter-range__label"><span class="visually-hidden">От</span>
+                  <input class="filter-range__input" type="number" name="min-level" step="10" placeholder="0"></label>
+                  <label class="filter-range__label"><span class="visually-hidden">до</span>
+                  <input class="filter-range__input" type="number" name="max-level" step="10" placeholder="100"></label>
+                </div>
+              </div>
+            </fieldset>
+
+            <button class="user-filter__btn btn btn_users-filter" type="submit">Показать</button>
+          </form>
+        </section>
+      </section>
+
+      <section class="main-users__filter travelers travelers_users">
+        <h3 class="visually-hidden">Выбрать попутчика</h3>
+
+        <ul class="travelers__box travelers__box_users traveler traveler_users">
+          <li class="traveler__item traveler__item_users">
+            <article class="traveler__article traveler-article">
+              <img class="traveler-article__img" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Таня Фирсова купается в океане">
+              <h3 class="traveler-article__author-title title-h3">Таня Фирсова</h3>
+              <p class="traveler-article__likes">1500000</p>
+
+              <section class="tegs-list tegs">
+                <h4 class="visually-hidden">Список тегов попутчика</h4>
+                <ul class="tegs__traveler">
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#ЗОШ</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#ПП</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#Фитнес</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#пляж</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#авокадо</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#смузи</a>
+                  </li>
+                </ul>
+              </section>
+
+              <section class="wish-list wish-country">
+                <h4 class="wish-country__title title-h4 title-h4_users">хочет посетить</h4>
+                <ul class="wish-country__list">
+                  <li class="wish-country__item">
+                    <a class="wish-country__link" href="">Шри-Ланка</a>
+                  </li>
+                  <li class="wish-country__item">
+                    <a class="wish-country__link" href="">Тайланд</a>
+                  </li>
+                  <li class="wish-country__item">
+                    <a class="wish-country__link" href="">Сейшелы</a>
+                  </li>
+                </ul>
+              </section>
+              
+              <section class="route-icons">
+                <h4 class="route-icons__title title-h4 title-h4_users">транспорт</h4>
+                <ul class="route-icons__list">
+                  <li class="route-icons__item">
+                    <a class="route-icons__link" href=""><span class="visually-hidden">На самолёте</span></a>
+                  </li>
+
+                  <li class="route-icons__item">
+                    <a class="route-icons__link"><span class="visually-hidden">На поезде</span></a>
+                  </li>
+
+                  <li class="route-icons__item">
+                    <a class="route-icons__link"><span class="visually-hidden">На велосипеде</span></a>
+                  </li>
+
+                  <li class="route-icons__item">
+                    <a class="route-icons__link"><span class="visually-hidden">Пешком</span></a>
+                  </li>
+                </ul>
+              </section>
+
+              <div class="mark mark-users">
+                <h4 class="mark-users__title title-h4 title-h4_users">левел</h4>
+                <p class="mark-users__number title-h2 title-h2_users">99</p>
+              </div>   
+              
+              <a class="traveler-article__btn btn btn_users" href="">Позвать</a>
+            </article>
+          </li>
+
+          <li class="traveler__item traveler__item_users">
+            <article class="traveler__article traveler-article">
+              <img class="traveler-article__img" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Таня Фирсова купается в океане">
+              <h3 class="traveler-article__author-title title-h3">Петя Демин</h3>
+              <p class="traveler-article__likes">1500</p>
+
+              <section class="tegs-list tegs">
+                <h4 class="visually-hidden">Список тегов попутчика</h4>
+                <ul class="tegs__traveler">
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#бургер</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#бар</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#футбол</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#концерт</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#крафт</a>
+                  </li>
+                </ul>
+              </section>
+
+              <section class="wish-list wish-country">
+                <h4 class="wish-country__title title-h4 title-h4_users">хочет посетить</h4>
+                <ul class="wish-country__list">
+                  <li class="wish-country__item">
+                    <a class="wish-country__link" href="">Бельгия</a>
+                  </li>
+                  <li class="wish-country__item">
+                    <a class="wish-country__link" href="">Чехия</a>
+                  </li>
+                </ul>
+              </section>
+              
+              <section class="route-icons">
+                <h4 class="route-icons__title title-h4 title-h4_users">транспорт</h4>
+                <ul class="route-icons__list">
+                  <li class="route-icons__item">
+                    <a class="route-icons__link" href=""><span class="visually-hidden">На самолёте</span></a>
+                  </li>
+
+                  <li class="route-icons__item">
+                    <a class="route-icons__link"><span class="visually-hidden">На поезде</span></a>
+                  </li>
+
+                  <li class="route-icons__item">
+                    <a class="route-icons__link"><span class="visually-hidden">На велосипеде</span></a>
+                  </li>
+
+                  <li class="route-icons__item">
+                    <a class="route-icons__link"><span class="visually-hidden">Пешком</span></a>
+                  </li>
+                </ul>
+              </section>
+
+              <div class="mark mark-users">
+                <h4 class="mark-users__title title-h4 title-h4_users">левел</h4>
+                <p class="mark-users__number title-h2 title-h2_users">99</p>
+              </div>
+
+              <a class="traveler-article__btn btn btn_users" href="">Позвать</a>         
+            </article>
+          </li>
+
+          <li class="traveler__item traveler__item_users">
+            <article class="traveler__article traveler-article">
+              <img class="traveler-article__img" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Таня Фирсова купается в океане">
+              <h3 class="traveler-article__author-title title-h3">Марк Смолов</h3>
+              <p class="traveler-article__likes">170</p>
+
+              <section class="tegs-list tegs">
+                <h4 class="visually-hidden">Список тегов попутчика</h4>
+                <ul class="tegs__traveler">
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#рэп</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#тату</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#хайпбист</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#кроссовки</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#суприм</a>
+                  </li>
+                </ul>
+              </section>
+
+              <section class="wish-list wish-country">
+                <h4 class="wish-country__title title-h4 title-h4_users">хочет посетить</h4>
+                <ul class="wish-country__list">
+                  <li class="wish-country__item">
+                    <a class="wish-country__link" href="">Бельгия</a>
+                  </li>
+                  <li class="wish-country__item">
+                    <a class="wish-country__link" href="">Чехия</a>
+                  </li>
+                </ul>
+              </section>
+              
+              <section class="route-icons">
+                <h4 class="route-icons__title title-h4 title-h4_users">транспорт</h4>
+                <ul class="route-icons__list">
+                  <li class="route-icons__item">
+                    <a class="route-icons__link" href=""><span class="visually-hidden">На самолёте</span></a>
+                  </li>
+
+                  <li class="route-icons__item">
+                    <a class="route-icons__link"><span class="visually-hidden">На поезде</span></a>
+                  </li>
+
+                  <li class="route-icons__item">
+                    <a class="route-icons__link"><span class="visually-hidden">На велосипеде</span></a>
+                  </li>
+
+                  <li class="route-icons__item">
+                    <a class="route-icons__link"><span class="visually-hidden">Пешком</span></a>
+                  </li>
+                </ul>
+              </section>
+
+              <div class="mark mark-users">
+                <h4 class="mark-users__title title-h4 title-h4_users">левел</h4>
+                <p class="mark-users__number title-h2 title-h2_users">25</p>
+              </div>  
+              
+              <a class="traveler-article__btn btn btn_users" href="">Позвать</a>
+            </article>
+          </li>
+
+          <li class="traveler__item traveler__item_users">
+            <article class="traveler__article traveler-article">
+              <img class="traveler-article__img" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Таня Фирсова купается в океане">
+              <h3 class="traveler-article__author-title title-h3">Лариса Роговая</h3>
+              <p class="traveler-article__likes">23</p>
+
+              <section class="tegs-list tegs">
+                <h4 class="visually-hidden">Список тегов попутчика</h4>
+                <ul class="tegs__traveler">
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#образование</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#карьера</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#учёба</a>
+                  </li>
+                  <li class="tegs__item">
+                    <a class="tegs__link" href="">#линкедин</a>
+                  </li>
+                </ul>
+              </section>
+
+              <section class="wish-list wish-country">
+                <h4 class="wish-country__title title-h4 title-h4_users">хочет посетить</h4>
+                <ul class="wish-country__list">
+                  <li class="wish-country__item">
+                    <a class="wish-country__link" href="">Великобритания</a>
+                  </li>
+                  <li class="wish-country__item">
+                    <a class="wish-country__link" href="">Германия</a>
+                  </li>
+                </ul>
+              </section>
+              
+              <section class="route-icons">
+                <h4 class="route-icons__title title-h4 title-h4_users">транспорт</h4>
+                <ul class="route-icons__list">
+                  <li class="route-icons__item">
+                    <a class="route-icons__link" href=""><span class="visually-hidden">На самолёте</span></a>
+                  </li>
+
+                  <li class="route-icons__item">
+                    <a class="route-icons__link"><span class="visually-hidden">На поезде</span></a>
+                  </li>
+
+                  <li class="route-icons__item">
+                    <a class="route-icons__link"><span class="visually-hidden">На велосипеде</span></a>
+                  </li>
+
+                  <li class="route-icons__item">
+                    <a class="route-icons__link"><span class="visually-hidden">Пешком</span></a>
+                  </li>
+                </ul>
+              </section>
+
+              <div class="mark mark-users">
+                <h4 class="mark-users__title title-h4 title-h4_users">левел</h4>
+                <p class="mark-users__number title-h2 title-h2_users">50</p>
+              </div>  
+              
+              <a class="traveler-article__btn btn btn_users" href="">Позвать</a>
+            </article>
+          </li>
+        </ul>
+
+        <ul class="travelers__pagination pagination">
+          <li class="pagination__item pagination-btn"><a class="btn_user" href="">Показать ещё</a></li>
+          <li class="pagination__item disabled"><a class="visually-hidden">Предыдущая</a></li>
+          <li class="pagination__item"><a class="btn_user_icon"href="">Следующая</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="body__footer footer">
+      <section class="footer__social social">
+        <h2 class="visually-hidden">Мы в социальных сетях</h2>
+        <ul class="social__list social__list_bottom">
+          <li class="social__item social__item_icon social__item_vk"><a aria-label="vkotakte" href=""></a></li>
+          <li class="social__item social__item_icon social__item_fb"><a aria-label="facebook" href=""></a></li>
+          <li class="social__item social__item_icon social__item_inst"><a aria-label="instagram" href=""></a></li>
+        </ul>
+      </section>
+
+      <p class="footer__text text">Разработано<a href=""><img class="footer__logo" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Логотип HTML Academy">
+      </a></p>
+    </footer>
+  </body>
+</html>
