@@ -10,9 +10,9 @@
   <body class="page__body body">
     <header class="page-header header">
       <h1 class="visually-hidden">Сервис планирования путешествий «Погнали?»: Направления</h1>
-      <nav class="page-header__nav nav">
-        <a class="header__logo logo" href="index.html">
-          <img class="nav__logo-img" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Логотип сервиса планирования путешествий «Погнали?»">
+      <nav class="header__nav nav">
+        <a class="nav__logo logo" href="index.html">
+          <img class="logo__img" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Логотип сервиса планирования путешествий «Погнали?»">
         </a>
 
         <ul class="nav__list">
@@ -20,7 +20,7 @@
             <a class="nav__link" href="">О сервисе</a>
           </li>
           <li class="nav__item">
-            <a class="nav__link" href="">Направления</a>
+            <a class="nav__link">Направления</a>
           </li>
           <li class="nav__item">
             <a class="nav__link" href="users.html">Попутчики</a>
@@ -28,10 +28,10 @@
         </ul>
         <ul class="nav__list">
           <li class="nav__item">
-            <a class="nav__btn nav__btn_header" href="">Авторизация</a>
+            <a class="nav__btn btn" href="">Авторизация</a>
           </li>
         </ul>
-      </nav>  
+      </nav>   
       
       <section class="header__contacts contacts">
         <h2 class="visually-hidden">Контакты</h2>
@@ -49,53 +49,53 @@
       </section>
 
       <input class="header__toggle" type="checkbox" id="header-toggle"/>
-      <label for="header-toggle"></label>
+      <label for="header__toggle"></label>
     </header>
 
-    <main class="body__main main main_form">
-      <h2 class="main__title title-h1">Направления</h2>
+    <main class="body__main main-form">
+      <h2 class="main-form__title title-h1">Направления</h2>
 
-      <section class="main__traveler traveler-info">
+      <section class="main-form__traveler traveler-info">
         <h3 class="visually-hidden">Профиль</h3>
-        <table class="mark mark_form">
+        <table class="mark mark-form">
           <tr>
-            <td class="mark__number_form title-h2_form">80</td>
+            <td class="mark-form__number title-h2">80</td>
           </tr>
           <tr>
-            <td class="mark__text_form text_form">level</td>
+            <td class="mark-form__text text text_form">level</td>
           </tr>
         </table>
-        <img class="traveler-info__img_form" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Петя Демин, тепло одетый: в свитере, шапке и солнцезащитных очках, стоит на фоне сугробов">
+        <img class="traveler-info__img traveler-info__img_form" src="https://via.placeholder.com/150x150" width="150" height="150" alt="Петя Демин, тепло одетый: в свитере, шапке и солнцезащитных очках, стоит на фоне сугробов">
         
         <form class="traveler-info__form form-img" enctype="multipart/form-data" method="post">
-          <label class="form-img__btn_form btn_choise-img">
+          <label class="form-img__btn btn btn_choise-img">
             <input class="visually-hidden" type="file">
             Сменить фото
           </label>
         </form>
 
-        <section class="tegs-list_form tegs">
+        <section class="tegs-list tegs-list_form tegs">
           <h4 class="tegs__title title-h4">Теги</h4>
-          <ul class="tegs__traveler_form">
-            <li class="tegs__item_form">
-              <a class="tegs__link_form" href="">#бургер</a>
+          <ul class="tegs__traveler tegs__traveler_form">
+            <li class="tegs__item tegs__item_form">
+              <a class="tegs__link tegs__link_form" href="">#бургер</a>
             </li>
-            <li class="tegs__item_form">
-              <a class="tegs__link_form" href="">#бар</a>
+            <li class="tegs__item tegs__item_form">
+              <a class="tegs__link tegs__link_form" href="">#бар</a>
             </li>
-            <li class="tegs__item_form">
-              <a class="tegs__link_form" href="">#футбол</a>
+            <li class="tegs__item tegs__item_form">
+              <a class="tegs__link tegs__link_form" href="">#футбол</a>
             </li>
-            <li class="tegs__item_form">
-              <a class="tegs__link_form" href="">#концерт</a>
+            <li class="tegs__item tegs__item_form">
+              <a class="tegs__link tegs__link_form" href="">#концерт</a>
             </li>
-            <li class="tegs__item_form">
-              <a class="tegs__link_form" href="">#крафт</a>
+            <li class="tegs__item tegs__item_form">
+              <a class="tegs__link tegs__link_form" href="">#крафт</a>
             </li>
           </ul>
         </section>
         
-        <section class="route-list_form route">
+        <section class="route-list route">
           <h4 class="route__title title-h4">Транспорт</h4>
           <ul class="route__list route-icons">
             <li class="route-icons__item route-icons__item_form">
@@ -117,24 +117,24 @@
         </section>             
       </section>
 
-      <section class="main__route-plans route-plans">
+      <section class="main-form__route-plans route-plans">
         <h2 class="route-plans__title title-h2">Мои планы:</h2>
 
         <ol>
           <li>
             <h3 class="route-plans__title title-h2">Франция, Италия</h3>
-            <p class="route-plans__text text_form">3 попутчика</p>
-            <p class="route-plans__date date_form">
+            <p class="route-plans__text text text_form">3 попутчика</p>
+            <p class="route-plans__date date">
               <time datetime="2020-03-26">26 мар</time> — 
               <time datetime="2020-03-29">29 мар</time>
             </p>
-            <a class="route-plans__btn btn_plan-card" href="">Изменить</a>
+            <a class="route-plans__btn btn btn_plan-card" href="">Изменить</a>
           </li>
 
           <li>
             <h3 class="route-plans__title title-h2">Тайланд, Индонезия</h3>
-            <p class="route-plans__text text_form">1 попутчик</p>
-            <p class="route-plans__date date_form">
+            <p class="route-plans__text text text_form">1 попутчик</p>
+            <p class="route-plans__date date">
               <time datetime="2020-07-01">1 июл</time> — 
               <time datetime="2020-07-15">15 июл</time>
             </p>
@@ -143,7 +143,7 @@
         </ol>
       </section>
 
-      <section class="main__route-add route-add">
+      <section class="main-form__route-add route-add">
         <h2 class="route-add__title title-h2">Добавить план:</h2>
         <div class="controls">
           <button class="controls__btn" type="button" aria-label="Первый шаг"></button>
@@ -183,7 +183,7 @@
         <section class="route-add_box route-add">
           <form class="route-add__form" action="https://echo.htmlacademy.ru" method="post" oninput="country-choise.value=country.value">
             <h3 class="route-add__title title-h3">Шаг 2.<br>Маршрут</h3>
-            <p class="route-add__text text_form">
+            <p class="route-add__text text text_form">
               Укажите страны, которые вы хотели посетить. 
               Это может быть одна или сразу несколько.
             </p>
@@ -210,7 +210,7 @@
         <section class="route-add_box route-add">
           <form class="route-add__form" action="https://echo.htmlacademy.ru" method="post" oninput="country-choise.value=country.value">
             <h3 class="route-add__title title-h3">Шаг 3.<br>Развлечения</h3>
-            <p class="route-add__text text_form">
+            <p class="route-add__text text text_form">
               Наконец, расскажите о своих планахвремяпровождения.
               Можно писать в свободной форме и ставить тэги.
             </p>
@@ -223,15 +223,15 @@
               <textarea class="route-add__textarea" name="description" placeholder="План действий" rows="10"></textarea>
             </label>
 
-            <button class="route-add__btn btn_form" type="submit">Отправить</button>
+            <button class="route-add__btn btn btn_form" type="submit">Отправить</button>
           </form>
 
-          <a class="route-add__btn btn_form btn_form_back" href="">На шаг назад</a>
+          <a class="route-add__btn btn btn_form btn_form_back" href="">На шаг назад</a>
         </section>
       </section>
     </main>
 
-    <footer class="body__footer footer footer_form">
+    <footer class="body__footer footer">
       <section class="footer__social social">
         <h2 class="visually-hidden">Мы в социальных сетях</h2>
         <ul class="social__list social__list_bottom">
