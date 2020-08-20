@@ -1,0 +1,27 @@
+.profile{
+  background-color: @light-blue;
+
+  display: flex;
+  flex-direction: column;
+
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.profile__rate {
+  position: relative;
+
+  &::before {
+    content: "";
+    background-image: url(../img/rates@1x.png);
+    background-repeat: no-repeat;
+    background-size: 100px 100px;
+
+    position: absolute;
+    left: 197px;
+    top: -86px;
+
+    width: 100px;
+    height: 100px;
+  }
+}

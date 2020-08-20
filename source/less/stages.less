@@ -1,0 +1,52 @@
+.stages {
+  background-color: @basic-blue;
+  padding-bottom: 38px;
+}
+
+.stages__list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.stages__item {
+  background-color: @basic-yellow;
+  padding: 20px;
+  padding-bottom: 60px;
+  margin-left: 25px;
+  margin-right: 25px;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+  color: @basic-blue;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 700;
+
+  &::after {
+    content: "1";
+    color: @white;
+   
+  }
+
+  &:nth-child(4){
+    border-radius: 10px;
+    padding-bottom: 20px;
+  }
+
+  &:nth-child(3){
+    content: "2";
+    background-color: @special-yellow-dark;
+  }
+
+  &:nth-child(2){
+    content: "3";
+    background-color: @light-orange;
+  }
+
+  &:nth-child(1){
+    content: "4";
+    background-color: @special-orange;
+  }
+}

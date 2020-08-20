@@ -1,0 +1,44 @@
+.tariff {
+  margin-left: @margin-mobile;
+  margin-top: 20px;
+}
+
+.tariff__table {
+  display: flex;
+  flex-wrap: wrap;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 80px;
+
+  position: relative;
+
+  border-top: 1px solid @gray-line;
+
+  &:nth-child(3) {
+    border-bottom: 1px solid @gray-line;
+  }
+}
+
+.tariff__item_number {
+  background-color: @basic-yellow;
+  border-radius: 50%;
+
+  width: 34px;
+  height: 34px;
+
+  text-align: center;
+  line-height: 36px;
+
+  position: absolute;
+  top: 4px;
+  left: 210px;
+}
+
+.tariff__table:nth-of-type(2) .tariff__item_number{
+  background-color: @special-yellow-dark;
+}
+
+.tariff__table:nth-of-type(3) .tariff__item_number{
+  background-color: @special-orange;
+}

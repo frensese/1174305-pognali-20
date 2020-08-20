@@ -1,0 +1,48 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 auto;
+
+  width: 320px;
+  margin: 0 auto;
+
+  @media (min-width: @tablet) {
+    
+  }
+}
+
+.contacts__link {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  margin: 0;
+  margin-left: 86px;
+
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  color: @basic-blue;
+  text-decoration: none;
+
+  &:hover {
+    color: @blue-hover;
+  }
+
+  &:active {
+    color: rgba(29, 46, 91, 0.3);
+  }
+
+  &::before {
+    background-image: url(../img/topmenu-phone.svg);
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: center top;
+  }
+}
+
+.contacts_feedback {
+  color: @white;
+}
